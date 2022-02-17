@@ -1,0 +1,77 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: dimgray;
+    font-family: Calibri;
+    background-color: #f1c0e8;
+    background-position: center;
+}
+
+.FormContainer {
+    width: 450px;
+    min-height: 500px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 0px auto;
+    /*margin-top: 300px;*/
+    margin-top: 80px;
+    background-color: aliceblue;
+}
+
+.ContainerTitle {
+    background-color: #872ca7;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic';
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contentContainer {
+    margin: 10px;
+    padding: 20px;
+}
+
+.textBox {
+    width: 340px;
+    margin: 10px 0;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Label {
+    font-weight: 700;
+    color: black;
+    padding-top: 30px;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.loginButton {
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+    background-color: mediumvioletred;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+.errorMessage {
+    height: 40px;
+    border: 1px solid silver;
+    margin: 10px;
+    margin-top: 25px;
+    background-color: darksalmon;
+    color: black;
+}

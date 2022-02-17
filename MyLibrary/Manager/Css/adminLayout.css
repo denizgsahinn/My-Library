@@ -1,0 +1,110 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size:16pt;
+    font-style:italic;
+
+}
+
+body {
+    font-family: Calibri;
+}
+
+.menuBar {
+    height: 70px;
+    background-color: #7209B7;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    float: left;
+}
+
+.user {
+    padding-top: 20px;
+    padding-right: 50px;
+    color: white;
+    float: right;
+}
+
+    .user a {
+        color: white;
+        text-decoration: none;
+        font-size:13pt;
+        border:1px dashed silver;
+        padding:10px;
+        border-radius:10px;
+    }
+
+    .user span {
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    .user .logout{
+ 
+    }
+
+.leftMenu {
+    width: 250px;
+    background-color: #D8E2DC;
+    height: 780px;
+    float: left;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+    .menu a {
+        color: teal;
+        text-decoration: none;
+        font-weight:900;       
+    }
+
+        .menu a li {
+            padding: 12px;
+            padding-left: 20px;
+            border-bottom: 1px solid silver;
+            padding-top: 10px;
+            margin-top: 5px;
+            color: #ea3546;
+        }
+
+        .menu a:hover li {
+            background-color: #cfcfcf;
+        }
+    .menu img {
+        float: left;
+        margin: 7px;
+        padding-top:2px;
+
+    }
+
+    .menu .icon {
+      width:20px;
+      height:20px;
+      padding-top:8px;
+    }
+
+.content {
+    width: 1000px;
+    /*width: 900px;  */
+    float: left;
+    padding: 25px;
+}
+.menu .title {
+    padding: 7px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+    color: #480CA8;
+    font-weight: 900;
+    font-size: 14pt;
+    text-align: center;
+}

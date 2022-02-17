@@ -1,0 +1,75 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family:Calibri;
+}
+
+.container {
+    width: 900px;
+    float: left;
+    padding: 25px;
+    border: 1px solid black;
+    margin:20px;
+    
+}
+
+    .container .box {
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;
+        float: left;
+        margin: 5px 25px 20px 20px;
+    }
+
+.container img{
+    height:100px;
+    width:100px;
+    padding-left:60px;
+    margin:10px;
+}
+
+.contentTitle {
+    margin: 7px;
+    padding: 10px;
+    border: 2px dotted #ae2012;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.contentTitle label{
+    font-size:16pt;
+    font-weight:700;
+}
+
+.bookTitle{
+
+    border:1px solid silver;
+    text-align:center;
+    margin:10px;
+    padding:5px;
+}
+
+    .bookTitle .bName {
+        color: #c1121f;
+        font-weight: 900;
+    }
+
+.container .lbl{
+    padding:10px;
+}
+.container .info{
+    border:1px solid silver;
+    margin:7px;
+    padding:5px;
+}
+
+.info .spn {
+    font-weight: 900;
+    color: #560BAD;
+}

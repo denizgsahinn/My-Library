@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manager.master.cs" Inherits="MyLibrary.Manager.Manager" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Library Management System</title>
+    <link href="Css/adminLayout.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menuBar">
+            <div class="logo">
+                <h3>My Library Management</h3>
+            </div>
+            <div class="user">
+                <asp:Label ID="lbl_user" runat="server" Style="margin-right: 35px;"></asp:Label>
+                <asp:LinkButton ID="lbt_logout" runat="server" OnClick="lbt_logout_Click" >Log Out</asp:LinkButton> 
+
+            </div>
+        </div>
+        <div>
+            <div class="leftMenu">
+                <ul class="menu">
+                    <a href="Default.aspx">
+                         <img src="../images/outline_home_black_24dp.png" />
+                        <li style="color:#FB8500;font-size:14pt;">HOMEPAGE</li>
+                    </a>
+
+                    
+                    <li class="title">ADD İTEM</li>
+
+                    <a href="AddCategory.aspx">
+                        <img src="../images/outline_add_circle_black_24dp.png" class="icon" />
+                        <li>Category</li>
+                    </a>
+                    <a href="AddWriter.aspx">
+                        <img src="../images/outline_add_circle_black_24dp.png" class="icon" />
+                        <li>Writers</li>
+                    </a>
+                    <a href="AddPublisher.aspx">
+                        <img src="../images/outline_add_circle_black_24dp.png" class="icon" />
+                        <li>Publisher</li>
+                    </a>     
+                    <a href="AddBook.aspx">
+                        <img src="../images/outline_add_circle_black_24dp.png" class="icon" />
+                        <li>Books</li>
+                    </a>
+
+                    
+                    <li class="title">LİST İTEMS</li>
+
+                    <a href="CategoryList.aspx">
+                        <img src="../images/outline_view_list_black_24dp.png" class="icon" />
+                        <li>Categories</li>
+                    </a>
+                     <a href="WriterList.aspx">
+                         <img src="../images/outline_view_list_black_24dp.png" class="icon" />
+                        <li>Writers</li>
+                    </a>
+                    <a href="PublisherList.aspx">
+                        <img src="../images/outline_view_list_black_24dp.png" class="icon" />
+                        <li>Publishers</li>
+                    </a>
+                     <a href="BookList.aspx">
+                         <img src="../images/outline_view_list_black_24dp.png" class="icon" />
+                        <li>Books</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
