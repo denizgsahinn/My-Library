@@ -5,17 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div class="contentTitle"><label>KİTAPLAR</label></div>
-    <%--<div class="container">
-        <img src="../images/bookk.jpg" />
-        <div class="bookTitle">
-            <label class="lbl">Deneme</label>
-        </div>
-        <div class="info">
-            <p>Yazar:</p>
-            <p>Sayfa Sayısı:</p>
-            <p>Yayıncı:</p>
-            <p>Tür:</p>
-        </div>
     </div>--%>
         <div class="container">
                 <asp:Repeater ID="rt_books" runat="server">
